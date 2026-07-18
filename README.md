@@ -2,7 +2,7 @@
 
 **Author:** [Jinxiang (Jessie) Zhou](https://github.com/jinxiangjessiezjx)
 
-This is a personal project built to develop practical quantitative finance and data science skills ahead of applying for risk analytics roles in asset management and financial services. It answers the question: **"How can we quantify and visualise the downside risk of a diversified multi-asset portfolio using industry-standard risk measures?"** using real market data from [Yahoo Finance](https://finance.yahoo.com) via the `yfinance` Python library.
+This is a personal project built to develop practical quantitative finance and data science skills. It answers the question: **"How can we quantify and visualise the downside risk of a diversified multi-asset portfolio using industry-standard risk measures?"** using real market data from [Yahoo Finance](https://finance.yahoo.com) via the `yfinance` Python library.
 
 I built a 5-asset portfolio — SPY (S&P 500), TLT (20Y US Treasuries), GLD (Gold), QQQ (Nasdaq 100), and EEM (Emerging Markets) — chosen to maximise diversification across asset classes and geographies. The 10-year sample window (2016–2025) was selected deliberately to capture two major stress events: the COVID crash of early 2020 and the 2022 rate hike cycle. I measured portfolio risk using three VaR methodologies (Historical, Parametric, Monte Carlo) and Expected Shortfall across three confidence levels (90%, 95%, 99%), and visualised sustained losses using drawdown analysis.
 
